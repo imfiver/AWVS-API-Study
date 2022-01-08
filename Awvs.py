@@ -145,8 +145,8 @@ class Awvs:
             print(r.text)
         except Exception as e:
             print(e)
-    def add_target(self,address,description):
 
+    def add_target(self, address: str, criticality, description):
     # test
     def get_api_url(self):
         print(self.api_url)
